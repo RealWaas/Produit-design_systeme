@@ -1,19 +1,21 @@
 <template>
-  <SignIn msg="Not signed up ?"/>
-  <SignUp msg="Already got an account ?"/>
+  <Signin/>
+  <Signup/>
 </template>
 
 <script>
-import SignIn from './components/Sign_in.vue'
-import SignUp from './components/Sign_up.vue'
+import Signin from './components/Sign_in.vue'
+import Signup from './components/Sign_up.vue'
 
 import './assets/styles/style.css';
 
 export default {
   name: 'App',
   components: {
-    SignIn,
-    SignUp
-  }
+    Signin,
+    Signup
+  },
+  methods: {
+}
 }
 </script>
