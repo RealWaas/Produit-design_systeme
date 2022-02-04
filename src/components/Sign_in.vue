@@ -9,7 +9,7 @@
           <h3>Password</h3>
           <input type="password" name="email" placeholder="**********">
           <span>Forget password ?</span>
-          <button>Sign In</button>
+          <button class=primary>Sign In</button>
         </form>
     </div>
 </template>

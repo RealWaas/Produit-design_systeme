@@ -1,5 +1,5 @@
 <template>
-  <Signin/>
+  <Signin color="primary"/>
   <Signup/>
 </template>
 
