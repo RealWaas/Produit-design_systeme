@@ -1,22 +1,21 @@
 <template>
-    <form>
-          <h3>Email</h3>
+    <div class="Sign_In">
+        <h1>Sign in</h1>
+        <h4>Not signed up ?</h4> <a>Register</a>
+        <h3>Email</h3>
+        <form>
           <input type="email" name="email" placeholder="johndoe@mail.com">
 
           <h3>Password</h3>
           <input type="password" name="email" placeholder="**********">
-          <div class="registered" v-if="registered == 'true'">
-            <span>Forget password ?</span>
-          </div>
+          <span>Forget password ?</span>
           <button>Sign In</button>
         </form>
+    </div>
 </template>
 
 <script>
 export default {
-  name: 'Connexion-form',
-  props: {
-    registered: String
-  }
+  name: 'Signin'
 }
 </script>
