@@ -1,31 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <Boutton/>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <SignIn msg="Not signed up ?"/>
+  <SignUp msg="Already got an account ?"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Boutton from './components/Boutton.vue'
+import SignIn from './components/Sign_in.vue'
+import SignUp from './components/Sign_up.vue'
 
 import './assets/styles/style.css';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    Boutton
+    SignIn,
+    SignUp
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
