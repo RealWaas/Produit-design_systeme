@@ -9,18 +9,18 @@
           <h3>Password</h3>
           <input type="password" name="email" placeholder="**********">
           <span>Forget password ?</span>
-          <PrButton text="Sign in" type="button" backgroundColor="black" color="white"/>
+          <FormButton text="text" type="primary" size="medium"/>
         </form>
     </div>
 </template>
 
 <script>
-import PrButton from '@/components/PrButton.vue'
+import FormButton from '@/components/FormButton.vue'
 
 export default {
   name: 'Signin',
   components: {
-    PrButton
+    FormButton
   },
 }
 </script>
